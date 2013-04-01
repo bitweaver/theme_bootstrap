@@ -1,2 +1,19 @@
 @import url('css/bootstrap.css');
+@import url('../../../themes/css/base.css');
 
+/* bootstrap tweaks */
+.tab-pane	{ padding:10px; }
+.nav.nav-tabs	{ margin-bottom:0; }
+.tab-content	{ background-color:white; border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+
+.form-inline select 	{ width:auto; font-size:12px; }
+.form-inline	{ margin-bottom:0; }
+
+.inline { display:inline; }
+
+.maincolumn2 {
+ .container;
+ .span10;
+}
+
+/* vim: set ts=40: */
