@@ -1,5 +1,6 @@
 @import url('css/bootstrap.css');
 @import url('../../../themes/css/base.css');
+@import url('fontawesome/css/font-awesome.min.css');
 
 /* bootstrap tweaks */
 .tab-pane	{ padding:10px; }
