@@ -13,8 +13,7 @@ header .navbar ul.nav 	{ width:100% }
 
 /* bitweaver specific - should move these to their own "light" theme" */
 #bittop	{padding:20px 0 20px 0;}
-header,
-section.maincontent	{margin-bottom:20px;}
+section.maincontent	{padding-top:20px;}
 footer	{background:#cccccc;margin-top:20px;padding:20px 0;}
 footer .stats	{font-size:9pt;}
 
