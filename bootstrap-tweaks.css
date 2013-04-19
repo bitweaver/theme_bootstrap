@@ -1,4 +1,6 @@
 
+.dropdown-submenu > a.nosubmenu:after	{ border-left-color:transparent; }
+
 /* bootstrap tweaks */
 .tab-pane	{ padding:10px; }
 header .navbar ul.nav 	{ width:100% }
@@ -19,7 +21,7 @@ footer .stats	{font-size:9pt;}
 
 .dropdown-menu	{float:right;}
 
-.dropdown-submenu.menu-admin > .dropdown-menu	{left: -95%; width:100%}
+.dropdown-submenu.menu-admin > .dropdown-menu	{left: -120%; width:125%}
 .dropdown-submenu.menu-admin > .dropdown-menu > .dropdown-submenu > .dropdown-menu	{left: -95%; width:100%}
 
 .dropdown-menu > li.favorite > a       { font-weight: bold; }
