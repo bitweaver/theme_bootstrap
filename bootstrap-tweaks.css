@@ -31,4 +31,7 @@ footer .stats	{font-size:9pt;}
 
 .navbar .nav > li.m-ilike	{ float:right; }
 
+.table th	{ border-top:0; }
+.well .table	{ margin-bottom:0; }
+
 /* vim: set ts=40: */
