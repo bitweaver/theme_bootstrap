@@ -10,6 +10,9 @@ header .navbar ul.nav 	{width:100% }
 .form-inline select 	{width:auto; font-size:12px; }
 .form-inline	{margin-bottom:0; display:inline-block;}
 .dropdown-menu	{z-index:9999; }
+label	{font-weight:bold;}
+label.checkbox	{font-weight:normal;}
+.help-block	{font-weight:normal;font-size:85%}
 
 .navbar .form-search	{padding-top:5px; margin:0;}
 .navbar .form-search input,
