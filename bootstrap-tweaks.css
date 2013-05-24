@@ -42,6 +42,9 @@ footer .stats	{font-size:9pt;}
 .navbar .nav > li.m-ilike	{ float:right; }
 
 .table th	{ border-top:0; }
+.table td.text-left	{ text-align:left }
+.table td.text-center	{ text-align:center }
+.table td.text-right	{ text-align:right }
 .well .table	{ margin-bottom:0; }
 
 /* vim: set ts=40: */
