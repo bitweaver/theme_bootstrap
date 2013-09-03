@@ -6,7 +6,7 @@
 header .navbar ul.nav 	{width:100% }
 .nav.nav-tabs	{margin-bottom:0; }
 .tab-content	{background-color:white; border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; margin-bottom:20px; }
-.nav-tabs > li > a	{background-color: #e0e0e0;}
+.nav-tabs > li > a	{background-color: #e0e0e0;margin-right:6px;}
 
 .form-inline select 	{width:auto; font-size:12px; }
 .form-inline	{margin-bottom:0; display:inline-block;}
