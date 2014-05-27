@@ -26,7 +26,9 @@ label.checkbox	{font-weight:normal;}
 .popover-help	{cursor:help;}
 .help-block	{font-weight:normal;font-size:85%}
 
-.navbar .nav > li.m-ilike	{ float:right; width:25%; }
+.navbar .nav > li.m-ilike	{float:right; width:25%;}
+
+nav h2	{margin:10px 0 5px 0;}
 
 /* bitweaver specific - should move these to their own "light" theme" */
 .container-fluid.mainheader	{padding-right:0; padding-left:0;}
