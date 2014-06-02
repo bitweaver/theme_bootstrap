@@ -20,13 +20,20 @@ label.checkbox	{font-weight:normal;}
 nav h2	{margin:10px 0 5px 0;}
 
 /* bitweaver specific - should move these to their own "light" theme" */
+main.col-md-12	{padding-right:0; padding-left:0;}
+@media (min-width: 768px) { 
 .maincontent.container,
 main.col-md-12,
-.container-fluid.mainheader	{padding-right:0; padding-left:0;}
-.mainheader .navbar-inner { padding-right: 0px; padding-left: 0px; }
+	{padding-right:0; padding-left:0;}
+	}
+@media (min-width:480px) and (max-width:767px) {
+	#bittopbar,
+	.maincontent.container-fluid {padding-right:5px; padding-left:5px;}
+	}
+.mainheader .navbar-inner 	{padding-right: 0px; padding-left: 0px;}
 .mainheader #bittop	{padding-top:20px;width:100%;display:inline-block;}
-.container-fluid.mainheader #bittop	{margin-right:40px;}
-.container-fluid #bittop .bittop-wrapper	{padding:20px;}
+#bittop	{margin-right:40px;}
+#bittop .bittop-wrapper	{padding:20px;}
 #bittop .brand	{display: block; float: left; padding: 10px 20px 10px; margin-left: -20px; font-size: 20px; font-weight: 200; color: #777777; text-shadow: 0 1px 0 #ffffff; }
 
 header h1	{margin-top:0;}
@@ -58,5 +65,38 @@ footer .stats	{font-size:9pt;}
 .dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
 .dropdown-submenu > a.nosubmenu:after	{border-left-color:transparent; }
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
 
 /* vim: set ts=40: */
