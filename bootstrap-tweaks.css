@@ -25,9 +25,10 @@ main.col-md-12	{padding-right:0; padding-left:0;}
 main.col-md-12,
 	{padding-right:0; padding-left:0;}
 	}
-@media (min-width:480px) and (max-width:767px) {
+@media (max-width:767px) {
 	#bittopbar,
 	#bw-main-content.container-fluid {padding-right:5px; padding-left:5px;}
+	.page-header{margin:10px 0 5px 0;}
 	}
 
 #bw-main-header #bittop	{padding-top:20px;width:100%;display:inline-block;}
