@@ -9,7 +9,6 @@
 .form-inline select 	{width:auto; font-size:12px; }
 .form-inline	{margin-bottom:0; display:inline-block;}
 .dropdown-menu	{z-index:9999; }
-label	{width:100%;}
 label.radio,
 label.checkbox	{font-weight:normal;}
 .popover-help	{cursor:help;}
