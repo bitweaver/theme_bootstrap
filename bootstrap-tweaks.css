@@ -9,7 +9,6 @@
 .form-inline select 	{width:auto; font-size:12px; }
 .form-inline	{margin-bottom:0; display:inline-block;}
 .dropdown-menu	{z-index:9999; }
-label	{width:100%;}
 label.radio,
 label.checkbox	{font-weight:normal;}
 .popover-help	{cursor:help;}
@@ -27,8 +26,6 @@ nav h2	{margin:10px 0 5px 0;}
 main.col-md-12	{padding-right:0; padding-left:0;}
 
 @media (min-width: 768px) { 
-	#bw-main-content.container,
-	main.col-md-12 {padding-right:0; padding-left:0;}
 	}
 @media (max-width:767px) {
 	.page-header{margin:10px 0 5px 0;}
@@ -39,14 +36,13 @@ main.col-md-12	{padding-right:0; padding-left:0;}
 
 #bw-main-header #bittop	{padding-top:20px;width:100%;display:inline-block;}
 header.container#bw-main-header	{margin-top:20px;}
-header.container-fluid#bw-main-header	{padding-left:0px;padding-right:0px;}
 
 #bittop	{margin-right:40px;}
 #bittop .bittop-wrapper	{padding:20px;}
 #bittop .brand	{display: block; float: left; padding: 10px 20px 10px; margin-left: -20px; font-size: 20px; font-weight: 200; color: #777777; text-shadow: 0 1px 0 #ffffff; }
 
 header h1	{margin-top:0;}
-#bw-main-footer {background:#cccccc;margin-top:20px;padding:20px 0;}
+#bw-main-footer	{margin-top:20px;padding:20px 0;}
 #bw-main-footer .stats	{font-size:9pt;}
 
 .dropdown-menu	{float:right;}
