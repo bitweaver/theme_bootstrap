@@ -38,6 +38,7 @@ nav h2	{margin:10px 0 5px 0;}
 
 #bw-main-header #bittop	{padding-top:20px;width:100%;display:inline-block;}
 header.container#bw-main-header	{margin-top:20px;}
+header.container-fluid#bw-main-header	{padding-left:0px;padding-right:0px;}
 
 #bittop	{margin-right:40px;}
 #bittop .bittop-wrapper	{padding:20px;}
