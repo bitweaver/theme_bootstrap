@@ -11,6 +11,8 @@
 .dropdown-menu	{z-index:9999; }
 label.radio,
 label.checkbox	{font-weight:normal;}
+.radio label,
+.checkbox label	{display:block}
 .popover-help	{cursor:help;}
 .help-block	{font-weight:normal;font-size:85%}
 
