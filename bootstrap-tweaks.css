@@ -1,3 +1,12 @@
+/* bootstrap fixes */
+.btn-fileinput	{ position: relative; overflow: hidden; }
+.btn-fileinput input	{ position: absolute; top: 0; right: 0; margin: 0; opacity: 0; -ms-filter: 'alpha(opacity=0)'; font-size: 200px; direction: ltr; cursor: pointer; }
+
+/* Fixes for IE < 8 */
+@media screen\9 { 
+.btn-fileinput	{ filter: alpha(opacity=0); font-size: 100%; height: 100%; } 
+}
+
 /* bootstrap tweaks */
 .tab-pane	{padding:10px; }
 .nav.nav-tabs	{margin-bottom:0; }
