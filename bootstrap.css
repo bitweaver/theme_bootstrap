@@ -1,5 +1,5 @@
 /* for mod_pagespeed, these should be imported directly in your themes css */
 @import url(css/bootstrap.css);
-@import url(font-awesome/css/font-awesome.min.css);
+@import url(fontawesome/css/all.min.css);
 @import url(../../../themes/css/base.css);
 @import url(bootstrap-tweaks.css);
