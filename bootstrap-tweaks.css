@@ -28,6 +28,7 @@ label.checkbox	{font-weight:normal;}
 .navbar .nav > li.m-ilike	{float:right; width:25%;}
 header.container-fluid .row .navbar-nav.navbar-right:last-child { margin-right:0px; }
 
+.btn-group-vertical .btn	{text-align:left;font-weight:normal;}
 .input-xs	{ height: 22px; padding: 5px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
 
 nav h2	{margin:10px 0 5px 0;}
